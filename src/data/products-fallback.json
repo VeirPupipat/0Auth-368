@@ -1,0 +1,217 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "title": "Essence Mascara Lash Princess",
+      "price": 9.99,
+      "stock": 99,
+      "category": "beauty"
+    },
+    {
+      "id": 2,
+      "title": "Eyeshadow Palette with Mirror",
+      "price": 19.99,
+      "stock": 34,
+      "category": "beauty"
+    },
+    {
+      "id": 3,
+      "title": "Powder Canvas",
+      "price": 14.99,
+      "stock": 89,
+      "category": "beauty"
+    },
+    {
+      "id": 4,
+      "title": "Red Lipstick",
+      "price": 12.99,
+      "stock": 91,
+      "category": "beauty"
+    },
+    {
+      "id": 5,
+      "title": "Red Nail Polish",
+      "price": 8.99,
+      "stock": 71,
+      "category": "beauty"
+    },
+    {
+      "id": 6,
+      "title": "Calvin Klein CK One",
+      "price": 49.99,
+      "stock": 17,
+      "category": "fragrances"
+    },
+    {
+      "id": 7,
+      "title": "Chanel Coco Noir Eau De",
+      "price": 129.99,
+      "stock": 41,
+      "category": "fragrances"
+    },
+    {
+      "id": 8,
+      "title": "Dior J'adore",
+      "price": 89.99,
+      "stock": 57,
+      "category": "fragrances"
+    },
+    {
+      "id": 9,
+      "title": "Dolce Shine Eau de",
+      "price": 69.99,
+      "stock": 7,
+      "category": "fragrances"
+    },
+    {
+      "id": 10,
+      "title": "Gucci Bloom Eau de",
+      "price": 79.99,
+      "stock": 93,
+      "category": "fragrances"
+    },
+    {
+      "id": 11,
+      "title": "Annibale Colombo Bed",
+      "price": 1899.99,
+      "stock": 47,
+      "category": "furniture"
+    },
+    {
+      "id": 12,
+      "title": "Annibale Colombo Sofa",
+      "price": 2499.99,
+      "stock": 16,
+      "category": "furniture"
+    },
+    {
+      "id": 13,
+      "title": "Bedside Table African Cherry",
+      "price": 299.99,
+      "stock": 12,
+      "category": "furniture"
+    },
+    {
+      "id": 14,
+      "title": "Knoll Saarinen Executive Conference Chair",
+      "price": 499.99,
+      "stock": 47,
+      "category": "furniture"
+    },
+    {
+      "id": 15,
+      "title": "Wooden Bathroom Vanity",
+      "price": 565.99,
+      "stock": 0,
+      "category": "furniture"
+    },
+    {
+      "id": 16,
+      "title": "Apple",
+      "price": 1.99,
+      "stock": 8,
+      "category": "groceries"
+    },
+    {
+      "id": 17,
+      "title": "Beef Steak",
+      "price": 12.99,
+      "stock": 86,
+      "category": "groceries"
+    },
+    {
+      "id": 18,
+      "title": "Cat Food",
+      "price": 8.99,
+      "stock": 46,
+      "category": "groceries"
+    },
+    {
+      "id": 19,
+      "title": "Chicken Meat",
+      "price": 9.99,
+      "stock": 97,
+      "category": "groceries"
+    },
+    {
+      "id": 20,
+      "title": "Cooking Oil",
+      "price": 4.99,
+      "stock": 10,
+      "category": "groceries"
+    },
+    {
+      "id": 21,
+      "title": "Cucumber",
+      "price": 1.49,
+      "stock": 84,
+      "category": "groceries"
+    },
+    {
+      "id": 22,
+      "title": "Dog Food",
+      "price": 10.99,
+      "stock": 71,
+      "category": "groceries"
+    },
+    {
+      "id": 23,
+      "title": "Eggs",
+      "price": 2.99,
+      "stock": 9,
+      "category": "groceries"
+    },
+    {
+      "id": 24,
+      "title": "Fish Steak",
+      "price": 14.99,
+      "stock": 74,
+      "category": "groceries"
+    },
+    {
+      "id": 25,
+      "title": "Green Bell Pepper",
+      "price": 1.29,
+      "stock": 33,
+      "category": "groceries"
+    },
+    {
+      "id": 26,
+      "title": "Green Chili Pepper",
+      "price": 0.99,
+      "stock": 3,
+      "category": "groceries"
+    },
+    {
+      "id": 27,
+      "title": "Honey Jar",
+      "price": 6.99,
+      "stock": 34,
+      "category": "groceries"
+    },
+    {
+      "id": 28,
+      "title": "Ice Cream",
+      "price": 5.49,
+      "stock": 27,
+      "category": "groceries"
+    },
+    {
+      "id": 29,
+      "title": "Juice",
+      "price": 3.99,
+      "stock": 50,
+      "category": "groceries"
+    },
+    {
+      "id": 30,
+      "title": "Kiwi",
+      "price": 2.49,
+      "stock": 99,
+      "category": "groceries"
+    }
+  ],
+  "total": 30,
+  "skip": 0,
+  "limit": 30
+}
