@@ -22,14 +22,17 @@ async function requireUser() {
 
 // ข้อมูลจากฟอร์มฝั่ง client เชื่อถือไม่ได้ จึงตรวจด้วย Schema ซ้ำที่ server
 type Checked =
-  | { data: ProductDraft; error?: undefined }
-  | { error: string; data?: undefined };
+  | { ok: true; data: ProductDraft }
+  | { ok: false; error: string };
 
 function validate(values: ProductDraft): Checked {
   const result = ProductDraftSchema.safeParse(values);
   return result.success
-    ? { data: result.data }
-    : { error: result.error.issues[0]?.message ?? "ข้อมูลไม่ถูกต้อง" };
+    ? { ok: true, data: result.data }
+    : {
+        ok: false,
+        error: result.error.issues[0]?.message ?? "ข้อมูลไม่ถูกต้อง",
+      };
 }
 
 export async function createProductAction(
@@ -38,7 +41,7 @@ export async function createProductAction(
   await requireUser();
 
   const checked = validate(values);
-  if (checked.error) {
+  if (!checked.ok) {
     return { error: checked.error };
   }
 
@@ -53,7 +56,7 @@ export async function updateProductAction(
   await requireUser();
 
   const checked = validate(values);
-  if (checked.error) {
+  if (!checked.ok) {
     return { error: checked.error };
   }
 
